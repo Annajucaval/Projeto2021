@@ -1,7 +1,14 @@
-body{
-    color: blue;
-}
-
 h1{
+    text-align:center;
     color:blue
 };
+
+.table-responsive{
+    width: 100% !important;
+  }
+
+  .table {
+      border: 3px solid black;
+      width: 15% !important;
+      margin: auto;
+  }
