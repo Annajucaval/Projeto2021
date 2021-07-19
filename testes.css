@@ -1,9 +1,33 @@
+body{
+    background: rgb(213, 179, 245);
+}
 h1{
     font-style: oblique;
     text-align:center;
-    color:blue
+    color: whitesmoke
 };
 
-.form-control{
-    margin: auto;
+form{
+    position: absolute;
+  background: black;
+  height: 200px;
+  width: 60%;
+  margin: 10px;
+  padding: 40px;
+  resize: both;
+  overflow: auto;
+  border: 5px solid whitesmoke;
+}
+form div{
+    
+    color: black;
+    width: 16%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+    border: 5px solid whitesmoke;
 }
